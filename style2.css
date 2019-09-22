@@ -1,0 +1,72 @@
+/*meu primeiro arquivo css 
+comentario
+*/
+
+/*TAGS*/
+body{
+	font-style:italic;
+	font-size:20px;
+	font-family:Arial, Helvetica, "Times new roman"	; /*se a pessoa n tiver a fonte arial na maq, usa helvetica*/
+}
+p{
+	font-family:Courier;
+	color:red;
+	font-size:40px;
+	font-family:"Comic Sans MS";
+}
+*{
+	margin: 0; /*elimina o espaco default do navegador no inicio da pagina (margim externa)*/
+	padding: 0; /*elimina o espaco default do container ateh o texto (margimminterna) da pagina*/
+	/*se definir 2 sao de cima e embaixo pra um e esq dir o outro*/
+	/*se definir 4 sao todos no sentido horario comecando por cima*/
+	background-color:black;
+	text-shadow:1px 1px 10px grey;
+}
+
+header{
+	background-color:green;
+	height: 100px;
+	padding:20px; /*margem interna empurra o texto pra baixo em relacao ao container*/
+	
+}
+
+
+footer{
+	clear: both;
+	background-color:blue;
+	height:30px;
+	text-align:center;
+	padding:10px 0px 0px 5px;
+}
+/*IDS*/
+#div_esquerda{
+	background-color:red;
+	min-height:200px;
+	width:60%;
+	float:left;
+}
+
+
+#div_direita{
+	background-color:yellow;
+	min-height:200px;
+	width:40%;
+	float:right;
+}
+
+#principal{
+	background-image:url('toronto.jpg');
+	background-size:100%;
+	padding:100px 0 0 0;
+	min-height:400px;
+}
+
+
+
+/*CLASS*/
+.container2{
+	width:100%;
+	margin:0 auto; /*primeiro valor eh a altura o segundo a largura*/
+	/*este coomando margim auto fara com que o meu container fique centralizado com as margens que sobram dividas corretamente dos lados*/
+	color:white;
+`}
